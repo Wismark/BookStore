@@ -1,0 +1,18 @@
+X-Sender: bookstore@example.com
+X-Receiver: orders@example.com
+MIME-Version: 1.0
+From: bookstore@example.com
+To: orders@example.com
+Date: 19 Oct 2018 18:39:36 +0300
+Subject: =?utf-8?B?0J3QvtCy0YvQuSDQt9Cw0LrQsNC3INC+0YLQv9GA0LDQstC7?=
+ =?utf-8?B?0LXQvSE=?=
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+0J3QvtCy0YvQuSDQt9Cw0LrQsNC3INC+0LHRgNCw0LHQvtGC0LDQvQ0KLS0tDQrQotC+
+0LLQsNGA0Ys6DQoxIHgg0JrRgNCw0YHQvdC+0LUg0Lgg0YfQtdGA0L3QvtC1ICjQuNGC
+0L7Qs9C+OiAxOTQsMDAg4oK9KdCe0LHRidCw0Y8g0YHRgtC+0LjQvNC+0YHRgtGMOiAx
+OTQsMDAg4oK9LS0tDQrQlNC+0YHRgtCw0LLQutCwOg0KQ0xSIHZpYSBDIyA0dGggRWRp
+dGlvbg0KMjAwINC70LXRgiDQpdC10YDRgdC+0L3QsCAyMw0KDQoNCtCf0LjRgtC10YAN
+CtCg0L7RgdGB0LjRjw0KLS0tDQrQn9C+0LTQsNGA0L7Rh9C90LDRjyDRg9C/0LDQutC+
+0LLQutCwOiDQndC10YI=

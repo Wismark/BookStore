@@ -1,0 +1,35 @@
+﻿@model Domain.Entities.Book
+
+<div class="card mx-auto p-4 m-4 bg-light">
+    <div class="row">
+        <div class="col-xl-10">
+            <h3>
+                <strong>@Model.Name</strong>
+            </h3>
+            <h5>
+                <strong>@Model.Author</strong>
+            </h5>
+        </div>
+
+        <div class="col-xl-2">
+            <h3>
+                <strong id="price" class="badge badge-primary badge-pill">
+                    @Model.Price.ToString("#.## руб")
+                </strong>
+            </h3>
+            @using (@Html.BeginForm("AddToCart", "Cart"))
+            {
+                <div class="float-right">
+                    @Html.HiddenFor(x=>x.BookId)
+                    @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                    <input type="submit" class="btn btn-success" value="Добавить в корзину" />
+                </div>
+            }
+        </div>
+    </div>
+    <span class="card-text lead text-justify">
+        <strong>
+            @Model.Description
+        </strong>
+    </span>
+</div>
